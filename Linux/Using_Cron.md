@@ -30,6 +30,24 @@ ssh -i my-key.pem ec2-user@<your-ec2-public-ip>
 
 ### 🧩 **2️⃣ Open the Crontab**
 
+Install it
+```bash
+sudo dnf install -y cronie
+```
+
+Enable and start the cron daemon
+```bash
+sudo systemctl enable --now crond
+```
+
+Check status
+```bash
+sudo systemctl status crond --no-pager
+```
+
+✅ You should see “active (running)” in green.
+
+
 ```bash
 crontab -e
 ```
