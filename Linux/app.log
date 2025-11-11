@@ -1,0 +1,50 @@
+2025-11-11 08:00:01 INFO  [AppInit] Application starting...
+2025-11-11 08:00:02 INFO  [ConfigLoader] Loaded configuration from /etc/app/config.yml
+2025-11-11 08:00:03 INFO  [Database] Connecting to database server at db01.local
+2025-11-11 08:00:03 INFO  [Database] Connection established successfully
+2025-11-11 08:00:04 INFO  [CacheManager] Cache initialized with 256 entries
+2025-11-11 08:00:05 INFO  [AuthService] Authentication service started
+2025-11-11 08:00:07 WARN  [DiskMonitor] Disk usage at 82%
+2025-11-11 08:00:09 INFO  [Scheduler] Scheduled cleanup job every 12 hours
+2025-11-11 08:00:10 INFO  [HTTPServer] Listening on port 8080
+2025-11-11 08:00:11 DEBUG [HTTPServer] Incoming request from 192.168.1.15
+2025-11-11 08:00:11 INFO  [LoginHandler] User admin logged in successfully
+2025-11-11 08:00:12 ERROR [Database] Failed to retrieve user profile: timeout after 5000ms
+2025-11-11 08:00:12 INFO  [RetryPolicy] Retrying request (1 of 3)
+2025-11-11 08:00:13 INFO  [RetryPolicy] Request succeeded on retry #2
+2025-11-11 08:00:15 WARN  [MemoryMonitor] Heap usage at 76%
+2025-11-11 08:00:17 INFO  [AuditLogger] Recorded user action: edit_profile
+2025-11-11 08:00:20 ERROR [FileService] Unable to open /var/log/app/data.csv (Permission denied)
+2025-11-11 08:00:22 INFO  [Scheduler] Cleanup job started
+2025-11-11 08:00:23 INFO  [CleanupJob] Removed 120 temporary files
+2025-11-11 08:00:24 INFO  [Scheduler] Cleanup job finished
+2025-11-11 08:00:26 DEBUG [HTTPServer] Incoming request from 192.168.1.18
+2025-11-11 08:00:26 INFO  [LoginHandler] User guest attempted login
+2025-11-11 08:00:26 ERROR [AuthService] Invalid credentials for user guest
+2025-11-11 08:00:27 WARN  [LoginHandler] Multiple failed login attempts detected
+2025-11-11 08:00:28 INFO  [Notifier] Email alert sent to admin@example.com
+2025-11-11 08:00:30 INFO  [BackupService] Starting nightly backup
+2025-11-11 08:00:31 ERROR [BackupService] Backup failed: disk full on /dev/sda1
+2025-11-11 08:00:32 WARN  [DiskMonitor] Disk usage critical at 95%
+2025-11-11 08:00:35 INFO  [BackupService] Retrying backup in 5 minutes
+2025-11-11 08:00:40 INFO  [Metrics] Updated system metrics
+2025-11-11 08:00:45 DEBUG [Metrics] CPU: 37%, MEM: 72%, DISK: 94%
+2025-11-11 08:00:48 INFO  [HTTPServer] Shutting down for maintenance
+2025-11-11 08:00:49 ERROR [HTTPServer] Failed to close connection gracefully
+2025-11-11 08:00:50 INFO  [HTTPServer] Server shutdown complete
+2025-11-11 08:00:52 INFO  [AppInit] Restarting application
+2025-11-11 08:00:53 INFO  [Database] Reconnecting to database server
+2025-11-11 08:00:53 ERROR [Database] Authentication failure during reconnection
+2025-11-11 08:00:54 INFO  [Database] Reconnected successfully
+2025-11-11 08:00:55 INFO  [CacheManager] Cache refreshed
+2025-11-11 08:00:57 WARN  [MemoryMonitor] Heap usage high (83%)
+2025-11-11 08:01:00 INFO  [AuditLogger] Recorded user action: delete_file
+2025-11-11 08:01:03 DEBUG [HTTPServer] Incoming request from 192.168.1.25
+2025-11-11 08:01:03 ERROR [FileService] File not found: /uploads/report.pdf
+2025-11-11 08:01:05 INFO  [LoginHandler] User alice logged out
+2025-11-11 08:01:06 INFO  [SessionManager] Session terminated for user alice
+2025-11-11 08:01:08 INFO  [Notifier] Daily report sent to admin@example.com
+2025-11-11 08:01:10 ERROR [ReportGenerator] Failed to compile report (NullPointerException)
+2025-11-11 08:01:11 INFO  [AppInit] Application running normally
+2025-11-11 08:01:12 INFO  [Heartbeat] System health OK
+2025-11-11 08:01:15 INFO  [ShutdownHook] Graceful shutdown complete
