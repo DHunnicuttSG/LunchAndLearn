@@ -6,5 +6,3 @@ DevOps Labs: https://kodekloud.com/free-labs/devops
 DevOps Labs: https://sadservers.com/  
 
 GitHub Repo with detailed Linux files: https://github.com/DHunnicuttSG/LunchAndLearn  
-
-Zoom Link for Lunch and Learn: https://mthree.zoom.us/my/dhunnicutt?pwd=bkbFJrh81Thct1wyZM1mtXPb8TFQRL.1  
