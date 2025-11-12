@@ -1,19 +1,18 @@
 ## ✅ **Java Basics - Answer Key**
 
-**1.** Edit → Compile → Execute
-**2.** Compiler translates entire code; interpreter executes line-by-line.
-**3.** `public static void main(String[] args)`
-**4.** Provides debugging, auto-complete, project management, error highlighting.
-**5.** Syntax = grammatical; Runtime = crash; Logic = incorrect results.
-**6.** Data = raw facts; Information = processed, meaningful data.
-**7.** `// single-line` and `/* multi-line */`
-**8.** Reserved keywords (`new`, `short`, `private`, `catch`, `this`) used as variable names.
-**9.** 5 → int; 128 → int; 34,780 → int; Bob → String; 86.02 → double; true → boolean; x → char
-**10.** Cast: `c = (float) a / b;`
-**11.** Input is `String`; use `Integer.parseInt()`, `Double.parseDouble()`, etc.
-**12.** Use breakpoints, step in/out/over, watch variables, use console.
+**1.** Edit → Compile → Execute  
+**2.** Compiler translates entire code; interpreter executes line-by-line.  
+**3.** `public static void main(String[] args)`  
+**4.** Provides debugging, auto-complete, project management, error highlighting.  
+**5.** Syntax = grammatical; Runtime = crash; Logic = incorrect results.  
+**6.** Data = raw facts; Information = processed, meaningful data.  
+**7.** `// single-line` and `/* multi-line */`  
+**8.** Reserved keywords (`new`, `short`, `private`, `catch`, `this`) used as variable names.  
+**9.** 5 → int; 128 → int; 34,780 → int; Bob → String; 86.02 → double; true → boolean; x → char  
+**10.** Cast: `c = (float) a / b;`  
+**11.** Input is `String`; use `Integer.parseInt()`, `Double.parseDouble()`, etc.  
+**12.** Use breakpoints, step in/out/over, watch variables, use console.  
 **13.** Output:
-
 ```
 25Java
 Java1312
